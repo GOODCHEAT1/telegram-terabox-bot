@@ -8,10 +8,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 TERABOX_EMAIL = os.getenv("TERABOX_EMAIL")
-TERABOX_PASS = os.getenv("TERABOX_PASS")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+TERABOX_PASS = os.getenv("https://terabox-player.rishuapi.workers.dev/?url=https://terabox.com/s/1kpYz6J8xalpQtoDk4DH8Aw")
+BOT_TOKEN = os.getenv("7264340351:AAGlj_b05lGahWtTGCUcD-DxeG_FcXK6rJQ")
 
-client = TeraBoxClient(TERABOX_EMAIL, TERABOX_PASS)
+client = TeraBoxClient(TERABOX_EMAIL, https://terabox-player.rishuapi.workers.dev/?url=https://terabox.com/s/1kpYz6J8xalpQtoDk4DH8Aw)
 
 logging.basicConfig(level=logging.INFO)
 
