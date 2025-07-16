@@ -3,9 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 from terabox_api import TeraBoxClient
 import os
-from dotenv import load_dotenv
 
-load_dotenv()
 
 TERABOX_EMAIL = os.getenv("TERABOX_EMAIL")
 TERABOX_PASS = os.getenv("https://terabox-player.rishuapi.workers.dev/?url=https://terabox.com/s/1kpYz6J8xalpQtoDk4DH8Aw")
